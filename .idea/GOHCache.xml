@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Close">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/close/closer.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Closer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/close/closer.go" />
+              <option value="file://$PROJECT_DIR$/closer/closer.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DB">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/testdata/db.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Mock">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/mock.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MockCloser">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/close/closer.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MockInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/mock.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Option">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/mock.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="inject">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/mock_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="injector">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/mock_test.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="inputer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/input/mocker.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="testInjector">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/mock_test.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/close/closer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740244715280" />
+              <option name="schema">
+                <list>
+                  <option value="MockCloser" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/close/closer_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740244131222" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/closer/closer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740243698244" />
+              <option name="schema">
+                <list>
+                  <option value="Closer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/closer/closer_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740244038778" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/initialize/initialize.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740247214170" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/inject/injecter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740248751911" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/input/input.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740243907023" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/input/inputer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740245373121" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/input/mocker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740246974003" />
+              <option name="schema">
+                <list>
+                  <option value="inputer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/inputer/input.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740244083918" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/m/m.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740245962261" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/mock.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740323493004" />
+              <option name="schema">
+                <list>
+                  <option value="Mock" />
+                  <option value="Option" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/mock_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740323609747" />
+              <option name="schema">
+                <list>
+                  <option value="testInjector" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/output/outputer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740245247062" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/testdata/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740248861569" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="close" value="Close" />
+        <entry key="closer" value="Closer" />
+        <entry key="db" value="DB" />
+        <entry key="inputer" value="inputer" />
+        <entry key="mock" value="Mock" />
+        <entry key="mock_closer" value="MockCloser" />
+        <entry key="mock_info" value="MockInfo" />
+        <entry key="option" value="Option" />
+        <entry key="test_injector" value="testInjector" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1740243387424" />
+  </component>
+</project>
