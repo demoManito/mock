@@ -51,8 +51,8 @@ func testMockGlobal() mock.MFunc {
 
 func TestMock(t *testing.T) {
 	injector := &testInjector{kv: map[string]any{"result": "failed"}}
-	defer mock.NewMock(t, &mock.Option{Injector: injector}).Run(testMockInject(), testMockGlobal()).Close()
-	defer mock.NewMock(t).Run(testMockGlobal()).Close()
+	defer mock.New(t, &mock.Option{Injector: injector}).Run(testMockInject(), testMockGlobal()).Close()
+	defer mock.New(t).Run(testMockGlobal()).Close()
 
 	if injector.kv["result"] != "success" {
 		t.Errorf("expect success, but got %s", injector.kv["result"])

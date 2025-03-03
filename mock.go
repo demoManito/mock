@@ -30,8 +30,8 @@ type Option struct {
 	Injector inject.Injector
 }
 
-// NewMock returns a new mock
-func NewMock(m M, opts ...*Option) *Mock {
+// New returns a new mock
+func New(m M, opts ...*Option) *Mock {
 	mock := &Mock{
 		M:       m,
 		closers: make([]close.Closer, 0),
