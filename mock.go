@@ -1,8 +1,11 @@
 package mock
 
 import (
+	"reflect"
+
 	"github.com/demoManito/mock/close"
 	"github.com/demoManito/mock/inject"
+	"github.com/demoManito/mock/logger"
 )
 
 // MFunc is a function that takes a mock as an argument.
@@ -35,6 +38,10 @@ func New(m M, opts ...*Option) *Mock {
 	mock := &Mock{
 		M:       m,
 		closers: make([]close.Closer, 0),
+	}
+	val := reflect.ValueOf(m)
+	if !val.IsValid() || val.IsZero() {
+		mock.M = logger.NewMockLog()
 	}
 	if len(opts) != 0 {
 		mock.injector = opts[0].Injector
